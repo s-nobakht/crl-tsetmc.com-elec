@@ -1,0 +1,24 @@
+{
+    "name": "saeid.s.nobakht/symbol-crawler",
+    "description": "A crawler for getting electricity energy market data from tsetmc.com.",
+    "license": "Apache-2.0",
+    "keywords": ["symbolCrawler, tsetmc.com, Energy Bourse, Electricity Bourse"],
+    "authors": [
+        {
+            "name": "Saeid.S.Nobakht",
+            "email": "sd.nobakht@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "monolog/monolog": "^1.21"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NR\\symbolCrawler\\": "src"
+        }
+    }
+}
